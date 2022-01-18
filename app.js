@@ -29,7 +29,7 @@ function clock(){
         minEl.style.transform = `rotate(${mDeg}deg)`;
         secEl.style.transform = `rotate(${sDeg}deg)`;
 
-        dateEl.innerHTML = `${date}/${month}/${year}`
+        dateEl.innerHTML = `${date}/${month + 1}/${year}`
 }
 
 setInterval("clock()", 1000);
